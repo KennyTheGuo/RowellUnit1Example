@@ -10,7 +10,8 @@ public class CheckFinish : MonoBehaviour
     {
         if(collision.gameObject.tag == "FinishLine")
         {
-            finishEffect.ActivateEffect();
+            finishEffect.ActivateEffect(); 
+            elevate.ActivateEffect();
         }
     }
 

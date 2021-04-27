@@ -17,11 +17,11 @@ public class FinishEffect : MonoBehaviour
         finishEffect.SetActive(true);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            ActivateEffect();
-        }
-    }
+   // private void OnCollisionEnter(Collision collision)
+ //   {
+  //      if(collision.gameObject.tag == "Player")
+  //      {
+  //          ActivateEffect();
+   //     }
+  //  }
 }
