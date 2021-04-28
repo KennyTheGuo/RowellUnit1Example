@@ -9,7 +9,7 @@ public class Elevate : MonoBehaviour
     private bool active;
     public float elevation;
     public float elevationLimit;
-    public float speedMod;
+//    public float speedMod;
 
     // Start is called before the first frame update
     void Start()
